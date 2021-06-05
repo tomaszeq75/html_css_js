@@ -1,0 +1,53 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-container, .main, .form, ul, li {
+    border-radius: 5px;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    width: 600px;
+    background-color: cornflowerblue;
+    margin: 10px;
+    padding: 10px;
+}
+
+.form {
+    padding: 10px;
+    background-color: lightskyblue;
+    text-align: center;
+}
+
+input {
+    width: 500px;
+}
+
+ul, li {
+    padding: 5px 10px;
+    margin: 5px 0;
+    background-color: lightskyblue;
+    transition: all 500ms;
+}
+
+li:nth-child(2n) {
+    background-color: #7cbde6;
+}
+
+li:hover {
+    box-shadow: 0px 0px 4px 2px cornflowerblue;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+}
